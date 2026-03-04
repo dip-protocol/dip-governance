@@ -1,302 +1,147 @@
-\# Founder Governance Manual
-
-\## DIP Protocol Stewardship Discipline
-
-
+# Stewardship and Transitional Governance
+## DIP Protocol Custodial Authority Framework
 
 ---
 
+# 1. Purpose
 
+This document defines the stewardship structure of DIP during its early institutional phase.
 
-\# 1. Purpose
+DIP governance begins under founder stewardship.
+It is designed to evolve toward distributed institutional governance.
 
-
-
-This document defines the responsibilities, boundaries, and behavioral constraints of the DIP Founder during protocol stewardship.
-
-
-
-Founder authority exists to protect invariants — not to accelerate product.
-
-
+This document formalizes that transition path.
 
 ---
 
+# 2. Founding Steward Role
 
+The Founding Steward is responsible for:
 
-\# 2. Founder Roles
+- Protecting protocol invariants
+- Enforcing amendment discipline
+- Preventing canonical drift
+- Preventing cryptographic shortcuts
+- Resisting commercial pressure
 
-
-
-The Founder operates in three distinct roles:
-
-
-
-1\. Protocol Steward
-
-2\. Product Builder
-
-3\. Company Operator
-
-
-
-These roles MUST remain psychologically separated.
-
-
-
-Protocol decisions must not be contaminated by product urgency.
-
-
+The Steward’s authority exists to defend integrity — not accelerate product.
 
 ---
 
+# 3. Scope of Steward Authority
 
+The Steward MAY:
 
-\# 3. Founder as Protocol Steward
+- Reject amendments that violate invariants
+- Require extended review periods
+- Trigger independent security review
+- Invoke emergency stabilization procedures
 
+The Steward MUST NOT:
 
+- Modify invariants unilaterally
+- Bypass formal amendment classification
+- Introduce silent semantic change
+- Override conformance requirements
 
-The Founder MUST:
-
-
-
-\- Protect canonical determinism
-
-\- Protect backward verifiability
-
-\- Protect cryptographic discipline
-
-\- Enforce amendment procedure
-
-\- Refuse shortcut pressure
-
-
-
-The Founder MUST NOT:
-
-
-
-\- Modify invariants for commercial opportunity
-
-\- Bypass cooling periods
-
-\- Introduce silent semantic change
-
-\- Redefine prior artifacts retroactively
-
-
+Steward authority is defensive, not creative.
 
 ---
 
+# 4. Emergency Stabilization Authority
 
+Emergency intervention is permitted only when:
 
-\# 4. Founder Emergency Authority
+- Cryptographic vulnerability is discovered
+- Deterministic verification fails
+- Canonicalization divergence is detected
+- Infrastructure compromise threatens integrity
 
+Emergency actions must:
 
+- Cite the affected invariant
+- Be documented
+- Undergo retrospective review
+- Be archived permanently
 
-Emergency authority is permitted only when:
-
-
-
-\- A cryptographic break is discovered
-
-\- Deterministic verification fails
-
-\- A structural invariant is breached
-
-
-
-Emergency authority must:
-
-
-
-\- Cite the violated invariant
-
-\- Be documented publicly (once repo becomes public)
-
-\- Trigger retrospective review
-
-
-
-Emergency authority is defensive, not creative.
-
-
+Emergency authority cannot be used for product acceleration.
 
 ---
 
+# 5. Product vs Protocol Separation
 
+DIP Core (Protocol Layer):
 
-\# 5. Product vs Protocol Separation
+- Deterministic
+- Slow-moving
+- Governance-bound
+- Invariant-protected
 
+Products built on DIP:
 
+- May iterate rapidly
+- May innovate freely
+- Must not alter protocol core
 
-Protocol layer:
-
-\- Deterministic
-
-\- Minimal
-
-\- Rigid
-
-\- Slow-moving
-
-
-
-Product layer:
-
-\- Fast-moving
-
-\- Iterative
-
-\- Adaptive
-
-\- Market-driven
-
-
-
-If product requires protocol modification:
-
-→ It must go through Amendment Procedure.
-
-→ No exception.
-
-
+Protocol evolution must never be driven by product urgency.
 
 ---
 
+# 6. Transition to Distributed Governance
 
+DIP is designed to move from:
 
-\# 6. Anti-Drift Discipline
+Founding Steward Model → Institutional Multi-Stakeholder Model
 
+Transition triggers may include:
 
+- Multiple independent implementations
+- Institutional adoption
+- External ecosystem contributors
+- Governance board formation
 
-Founder must resist:
+When transition occurs:
 
+- Steward veto narrows
+- Supermajority governance expands
+- Amendment authority distributes
 
-
-\- “Minor tweak” mentality
-
-\- Relaxed validation
-
-\- Silent field introduction
-
-\- Optional ambiguity
-
-\- Backward reinterpretation
-
-
-
-Drift begins with small convenience decisions.
-
-
+Stewardship is transitional by design.
 
 ---
 
+# 7. Steward Exit Resilience
 
-
-\# 7. Founder Psychological Safeguards
-
-
-
-Before approving a protocol change, Founder must ask:
-
-
-
-1\. Does this change affect canonical bytes?
-
-2\. Does this affect signature binding?
-
-3\. Could this invalidate historical artifacts?
-
-4\. Would I defend this change in 20 years?
-
-5\. Is this product pressure disguised as protocol need?
-
-
-
-If any answer is uncertain → escalate to formal RFC.
-
-
-
----
-
-
-
-\# 8. Founder Exit Resilience
-
-
-
-DIP governance must survive founder absence.
-
-
+DIP governance must survive steward absence.
 
 Therefore:
 
+- Invariants are codified
+- Amendment procedure is documented
+- Version spine is explicit
+- Conformance is test-enforced
 
-
-\- Procedures must be documented.
-
-\- Decisions must be archived.
-
-\- Version spine must be explicit.
-
-\- Invariants must be rigid.
-
-
-
-Founder personality must not be required for protocol stability.
-
-
+No individual must be required for protocol stability.
 
 ---
 
+# 8. Long-Term Governance Goal
 
+DIP aims for:
 
-\# 9. Institutional Transition Plan
+- Constitutional governance
+- Public amendment transparency
+- Multi-party decision authority
+- Security-reviewed evolution
 
-
-
-When DIP governance becomes public:
-
-
-
-\- Founder veto scope may narrow.
-
-\- Supermajority thresholds become binding.
-
-\- Documentation transparency becomes default.
-
-
-
-Founder must be prepared to relinquish control gradually.
-
-
+Stewardship protects integrity until institutional maturity is achieved.
 
 ---
 
+# 9. Final Principle
 
+Integrity precedes control.
 
-\# 10. Final Principle
-
-
-
-Founder protects integrity.
-
-
-
-Market builds value.
-
-
-
-Integrity outlives market cycles.
-
-
-
-If forced to choose:
-
-Preserve protocol.
-
-
+The Steward exists to protect the protocol until it can protect itself.
 
 ---
-
